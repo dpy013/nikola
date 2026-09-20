@@ -14,6 +14,15 @@ Here are some guidelines about how you can contribute to Nikola:
   the GitHub issue for the feature request. You can also discuss it on the
   `GitHub Discussions tab <https://github.com/getnikola/nikola/discussions>`_.
 
+* Using LLMs ("AI") for issue reports is not allowed.
+  Issues clearly written by LLMs will be closed without response.
+  LLM-assisted "security" reports which do not describe a real vulnerability will be closed,
+  and the GitHub account which posted it blocked from the project.
+
+* If you use LLMs ("AI") for your code contributions, please indicate so in the pull request.
+  We allow LLM-assisted contributions, but we will reject LLM-written pull requests
+  without comment if they introduce large, significant, previously undiscussed changes.
+
 * **Create a new Git branch specific to your change(s).** For example, if
   you’re adding a new feature to foo the bars, do something like the
   following::
